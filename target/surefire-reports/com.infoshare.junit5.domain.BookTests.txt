@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.infoshare.junit5.domain.BookTests
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 2, Errors: 0, Skipped: 2, Time elapsed: 0.054 s <<< FAILURE! - in com.infoshare.junit5.domain.BookTests
+assertj_file_content_asserts  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+	at com.infoshare.junit5.domain.BookTests.assertj_file_content_asserts(BookTests.java:80)
+
+assertj_multiple_filtering  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+	at com.infoshare.junit5.domain.BookTests.assertj_multiple_filtering(BookTests.java:66)
+

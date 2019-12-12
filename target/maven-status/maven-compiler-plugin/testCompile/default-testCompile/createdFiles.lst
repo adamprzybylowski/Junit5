@@ -1,0 +1,10 @@
+com/infoshare/junit5/CoinBoxTests.class
+com/infoshare/junit5/PurchaseTests$SuccessfulPurchase.class
+com/infoshare/junit5/PurchaseTests$FailedPurchase.class
+com/infoshare/junit5/domain/BookTests.class
+com/infoshare/junit5/PurchaseTests.class
+com/infoshare/junit5/domain/DispenserTests.class
+com/infoshare/junit5/simple/PurchaseTests.class
+com/infoshare/junit5/PurchaseTests$SuccessfulPurchase$ReturnChange.class
+com/infoshare/junit5/PurchaseTests$FailedPurchase$ReturnChange.class
+com/infoshare/junit5/domain/DispenserLoadingTests.class

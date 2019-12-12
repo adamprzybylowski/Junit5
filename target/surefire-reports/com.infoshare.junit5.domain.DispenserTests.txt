@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+Test set: com.infoshare.junit5.domain.DispenserTests
+-------------------------------------------------------------------------------
+Tests run: 29, Failures: 9, Errors: 0, Skipped: 0, Time elapsed: 0.192 s <<< FAILURE! - in com.infoshare.junit5.domain.DispenserTests
+amount_cant_be_lower_than_zero_after_removal  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+	at com.infoshare.junit5.domain.DispenserTests.amount_cant_be_lower_than_zero_after_removal(DispenserTests.java:247)
+
+should_add_loaded_items_of_same_type  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+	at com.infoshare.junit5.domain.DispenserTests.should_add_loaded_items_of_same_type(DispenserTests.java:41)
+
+should_copy_itself  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+	at com.infoshare.junit5.domain.DispenserTests.should_copy_itself(DispenserTests.java:148)
+
+should_not_add_negative_amounts  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+	at com.infoshare.junit5.domain.DispenserTests.should_not_add_negative_amounts(DispenserTests.java:238)
+
+should_calculate_total_value_of_ones_and_twos{Integer, Integer, Integer}[1]  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+	at com.infoshare.junit5.domain.DispenserTests.should_calculate_total_value_of_ones_and_twos(DispenserTests.java:80)
+
+should_calculate_total_value_of_ones_and_twos{Integer, Integer, Integer}[2]  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+	at com.infoshare.junit5.domain.DispenserTests.should_calculate_total_value_of_ones_and_twos(DispenserTests.java:80)
+
+should_calculate_total_value_of_ones_and_twos{Integer, Integer, Integer}[3]  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+	at com.infoshare.junit5.domain.DispenserTests.should_calculate_total_value_of_ones_and_twos(DispenserTests.java:80)
+
+should_calculate_total_value_of_ones_and_twos{Integer, Integer, Integer}[4]  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+	at com.infoshare.junit5.domain.DispenserTests.should_calculate_total_value_of_ones_and_twos(DispenserTests.java:80)
+
+should_be_empty_after_unloading  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+	at com.infoshare.junit5.domain.DispenserTests.should_be_empty_after_unloading(DispenserTests.java:63)
+

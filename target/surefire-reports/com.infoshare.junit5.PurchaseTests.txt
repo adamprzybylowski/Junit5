@@ -1,0 +1,26 @@
+-------------------------------------------------------------------------------
+Test set: com.infoshare.junit5.PurchaseTests
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0.061 s <<< FAILURE! - in com.infoshare.junit5.PurchaseTests
+order_is_cancelled_when_not_enough_products  Time elapsed: 0.024 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown ==> expected: <com.infoshare.junit5.exception.OutOfItemException> but was: <org.opentest4j.AssertionFailedError>
+	at com.infoshare.junit5.PurchaseTests$FailedPurchase.order_is_cancelled_when_not_enough_products(PurchaseTests.java:137)
+Caused by: org.opentest4j.AssertionFailedError: 
+	at com.infoshare.junit5.PurchaseTests$FailedPurchase.lambda$order_is_cancelled_when_not_enough_products$0(PurchaseTests.java:140)
+	at com.infoshare.junit5.PurchaseTests$FailedPurchase.order_is_cancelled_when_not_enough_products(PurchaseTests.java:137)
+
+order_is_cancelled_when_machine_cant_return_change  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown ==> expected: <com.infoshare.junit5.exception.NoChangeException> but was: <org.opentest4j.AssertionFailedError>
+	at com.infoshare.junit5.PurchaseTests$FailedPurchase$ReturnChange.order_is_cancelled_when_machine_cant_return_change(PurchaseTests.java:182)
+Caused by: org.opentest4j.AssertionFailedError: 
+	at com.infoshare.junit5.PurchaseTests$FailedPurchase$ReturnChange.lambda$order_is_cancelled_when_machine_cant_return_change$1(PurchaseTests.java:185)
+	at com.infoshare.junit5.PurchaseTests$FailedPurchase$ReturnChange.order_is_cancelled_when_machine_cant_return_change(PurchaseTests.java:182)
+
+should_return_payment_after_cancellation  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+	at com.infoshare.junit5.PurchaseTests$FailedPurchase$ReturnChange.should_return_payment_after_cancellation(PurchaseTests.java:162)
+
+purchase_product_without_change  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+	at com.infoshare.junit5.PurchaseTests$SuccessfulPurchase.purchase_product_without_change(PurchaseTests.java:42)
+

@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.infoshare.junit5.simple.PurchaseTests
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 4, Errors: 0, Skipped: 1, Time elapsed: 0.019 s <<< FAILURE! - in com.infoshare.junit5.simple.PurchaseTests
+should_dispense_cookies  Time elapsed: 0.004 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+	at com.infoshare.junit5.simple.PurchaseTests.should_dispense_cookies(PurchaseTests.java:47)
+
+given_not_enough_coins_wont_dispense_product  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+	at com.infoshare.junit5.simple.PurchaseTests.given_not_enough_coins_wont_dispense_product(PurchaseTests.java:99)
+
+given_exact_amount_of_coins_wont_give_change  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+	at com.infoshare.junit5.simple.PurchaseTests.given_exact_amount_of_coins_wont_give_change(PurchaseTests.java:73)
+
+given_more_coins_wont_give_change  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+	at com.infoshare.junit5.simple.PurchaseTests.given_more_coins_wont_give_change(PurchaseTests.java:86)
+

@@ -1,0 +1,41 @@
+-------------------------------------------------------------------------------
+Test set: com.infoshare.junit5.CoinBoxTests
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 0.051 s <<< FAILURE! - in com.infoshare.junit5.CoinBoxTests
+should_move_accepted_payment_to_storage{Integer}[1]  Time elapsed: 0.019 s  <<< FAILURE!
+org.opentest4j.MultipleFailuresError: 
+description (2 failures)
+	org.opentest4j.AssertionFailedError: <no message>
+	org.opentest4j.AssertionFailedError: <no message>
+	at com.infoshare.junit5.CoinBoxTests.should_move_accepted_payment_to_storage(CoinBoxTests.java:54)
+
+should_move_accepted_payment_to_storage{Integer}[2]  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.MultipleFailuresError: 
+description (2 failures)
+	org.opentest4j.AssertionFailedError: <no message>
+	org.opentest4j.AssertionFailedError: <no message>
+	at com.infoshare.junit5.CoinBoxTests.should_move_accepted_payment_to_storage(CoinBoxTests.java:54)
+
+should_move_accepted_payment_to_storage{Integer}[3]  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.MultipleFailuresError: 
+description (2 failures)
+	org.opentest4j.AssertionFailedError: <no message>
+	org.opentest4j.AssertionFailedError: <no message>
+	at com.infoshare.junit5.CoinBoxTests.should_move_accepted_payment_to_storage(CoinBoxTests.java:54)
+
+should_accept_all_coins{Coin}[1]  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+	at com.infoshare.junit5.CoinBoxTests.should_accept_all_coins(CoinBoxTests.java:22)
+
+should_accept_all_coins{Coin}[2]  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+	at com.infoshare.junit5.CoinBoxTests.should_accept_all_coins(CoinBoxTests.java:22)
+
+should_accept_all_coins{Coin}[3]  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+	at com.infoshare.junit5.CoinBoxTests.should_accept_all_coins(CoinBoxTests.java:22)
+
+should_accept_all_coins{Coin}[4]  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+	at com.infoshare.junit5.CoinBoxTests.should_accept_all_coins(CoinBoxTests.java:22)
+
